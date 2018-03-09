@@ -1,0 +1,74 @@
+* {
+font-family: 'calibri light';
+font-size:100%;
+margin: 0;
+padding: 0;
+}
+body {
+background:#FF0000;
+margin: 500px auto;width: 500px;
+margin: 150px auto;
+}
+input:focus {
+outline: none;
+}
+form {
+background:#708090;
+border-radius:12px;
+padding:30px;
+padding-top:30px;
+width:300px;
+margin:0 auto;
+margin-top: 50px;
+box-shadow:0px 15px 30px #40403d;
+}
+h1 {
+text-align:center;
+font-size:2.0em;
+font-weight:700;
+color:#c7ccd0;
+margin-bottom:24px;
+}
+h1:hover{
+font-size:20px;
+}
+input {
+width:250px;
+background:#1E90FF;
+border:0;
+padding:20px;
+border-radius:220px;
+margin-bottom: 5px;
+}
+::-webkit-input-placeholder { 
+color: white;
+font-style: italic;
+}
+::-moz-placeholder {
+color: white;
+font-style: italic;
+}
+:-ms-input-placeholder { 
+color: white;
+font-style: italic;
+}
+:-moz-placeholder {
+color: white;
+font-style: italic;
+}
+.btn {
+width: 100px;
+padding:10px;
+border-radius:10px;
+border:0;
+background:#F8F8FF;
+font-size:12px;
+color:#fff;
+box-shadow:0px 3px 0px #0b4072;
+cursor: pointer;
+}
+.btn:active {
+top:3px;
+box-shadow:none;
+outline: none;
+}
